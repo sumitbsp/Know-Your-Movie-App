@@ -35,6 +35,7 @@ $(document).ready(() => {
         .catch((err) => {
             console.log(err);
         })
+        $('#searchText').blur();
     };
 })
 
@@ -87,3 +88,9 @@ function getMovie(){
             console.log(err);
         })
 }
+
+$(function () {
+    $('#searchText').blur();
+});
+
+$("#searchText").blur();

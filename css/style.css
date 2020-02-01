@@ -21,6 +21,10 @@ h3{
     padding: 15px 0;
 }
 
+.logo{
+    width: 350px;
+}
+
 
 #movies img{
     padding: 5px;
@@ -32,7 +36,7 @@ h6, p, small{
 }
 
 .navbar-brand{
-    filter: drop-shadow(1px 1px 1px #2A9FD6);
+    filter: drop-shadow(2px 2px 5px #C97710);
 }
 
 #movies .col-md-3 .well {

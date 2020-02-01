@@ -8,6 +8,19 @@ body {
     font-family: 'Varela', sans-serif;
   }
 
+h3{
+    padding-bottom: 15px;
+}
+
+.jumbotron {
+    /* height: 200px; */
+    padding: 2rem 2rem;
+    justify-content: space-between;
+}
+.jumbotron h3, .jumbotron form {
+    padding: 15px 0;
+}
+
 
 #movies img{
     padding: 5px;
@@ -23,12 +36,18 @@ h6, p, small{
 }
 
 #movies .col-md-3 .well {
-    background-color: #282828;
+    background-color: #222222;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     margin: 5px;
     height: 380px;
+}
+
+@media screen and (max-width: 480px) {
+    #movies .col-md-3 .well {
+        height: auto;
+    }
 }
 
 .well img{
@@ -104,9 +123,11 @@ input:not(:placeholder-shown) ~ label {
 }
 
 .row .well {
-    background-color: #282828 ;
-    width: 100%;
+    background-color: #222222 ;
+    width: 95%;
+    margin: auto;
     padding: 10px;
+    margin-top: 10px;
 }
 
 h2{

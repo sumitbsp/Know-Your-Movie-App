@@ -14,7 +14,7 @@ $(document).ready(() => {
             let output = '';
             $.each(movies, (index, movie) => {
                 output += `
-                    <div class="col-md-3 hover2">
+                    <div class="col-md-3 col-6 hover2">
                         <div class="well text-left">
                             <img id="image" src="${movie.Poster}">
                             <div class="info">
@@ -70,7 +70,7 @@ function getMovie(){
             </div>
         </div>
         
-        <div class="row">
+        <div class="row ">
             <div class="well">
                 <h3>Plot</h3>
                 ${movie.Plot}
